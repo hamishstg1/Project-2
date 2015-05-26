@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=xs
+comment0.target=Piece(int[])
+comment1.params=
+comment1.target=getOffsets()
+comment2.params=
+comment2.target=java.awt.Color\ getColour()
+comment3.params=
+comment3.target=int\ getxSize()
+comment4.params=
+comment4.target=int\ getySize()
+numComments=5

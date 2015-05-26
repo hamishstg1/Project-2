@@ -1,0 +1,40 @@
+#BlueJ class context
+comment0.params=title\ width\ height\ bgColour
+comment0.target=SimpleCanvas(java.lang.String,\ int,\ int,\ java.awt.Color)
+comment0.text=\r\n\ Creates\ and\ displays\ a\ SimpleCanvas\ of\ the\ specified\ size\ and\ background\ \r\n
+comment1.params=
+comment1.target=SimpleCanvas()
+comment1.text=\r\n\ Creates\ and\ displays\ a\ SimpleCanvas\ of\ size\ 400x400\ with\ the\r\n\ default\ title\ "SimpleCanvas"\ and\ with\ white\ background.\r\n
+comment10.params=
+comment10.target=void\ repaint()
+comment10.text=\r\n\ If\ this\ SimpleCanvas\ does\ not\ automatically\ repaint\ after\ each\ drawing\ command,\ \r\n\ then\ this\ method\ can\ be\ used\ to\ cause\ a\ manual\ repaint.\r\n
+comment11.params=millis
+comment11.target=void\ wait(int)
+comment11.text=\r\n\ Causes\ execution\ to\ pause\ for\ the\ specified\ amount\ of\ time.\r\n\ This\ is\ usually\ used\ to\ produce\ animations\ in\ an\ easy\ manner,\ \r\n\ by\ repeatedly\ drawing,\ pausing,\ and\ then\ redrawing\ an\ object.\r\n
+comment12.params=ml
+comment12.target=void\ addMouseListener(java.awt.event.MouseListener)
+comment2.params=x1\ y1\ x2\ y2\ c
+comment2.target=void\ drawLine(int,\ int,\ int,\ int,\ java.awt.Color)
+comment2.text=\ \r\n\ Draws\ a\ line\ on\ the\ SimpleCanvas\ between\ two\ points.\r\n\ Assumes\ that\ x1\ <\=\ x2\ &&\ y1\ <\=\ y2\r\n
+comment3.params=x1\ y1\ x2\ y2\ c
+comment3.target=void\ drawRectangle(int,\ int,\ int,\ int,\ java.awt.Color)
+comment3.text=\ \r\n\ Draws\ a\ rectangle\ on\ the\ SimpleCanvas\ between\ two\ points.\r\n\ Assumes\ that\ x1\ <\=\ x2\ &&\ y1\ <\=\ y2\r\n
+comment4.params=newColour
+comment4.target=void\ setForegroundColour(java.awt.Color)
+comment4.text=\ \r\n\ Changes\ the\ colour\ for\ subsequent\ drawing\ on\ this\ SimpleCanvas\r\n
+comment5.params=
+comment5.target=java.awt.Color\ getForegroundColour()
+comment5.text=\r\n\ Gets\ the\ colour\ currently\ used\ for\ drawing\ on\ this\ SimpleCanvas.\r\n
+comment6.params=newFont
+comment6.target=void\ setFont(java.awt.Font)
+comment6.text=\r\n\ Changes\ the\ font\ for\ subsequent\ String\ drawing\ on\ this\ SimpleCanvas\r\n
+comment7.params=
+comment7.target=java.awt.Font\ getFont()
+comment7.text=\r\n\ Gets\ the\ font\ currently\ used\ for\ String\ drawing\ on\ this\ Canvas\r\n
+comment8.params=text\ x\ y\ c
+comment8.target=void\ drawString(java.lang.String,\ int,\ int,\ java.awt.Color)
+comment8.text=\r\n\ Draws\ the\ specified\ String\ at\ the\ specified\ location\ on\ this\ SimpleCanvas\r\n
+comment9.params=autoRepaint
+comment9.target=void\ setAutoRepaint(boolean)
+comment9.text=\r\n\ Sets\ the\ repaint\ mode\ to\ either\ manual\ or\ automatic.\r\n
+numComments=13

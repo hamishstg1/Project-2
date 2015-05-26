@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Play1010()
+comment1.params=file
+comment1.target=Play1010(java.lang.String)
+comment2.params=
+comment2.target=void\ createPieces()
+comment3.params=
+comment3.target=void\ drawBoard()
+comment4.params=
+comment4.target=void\ drawBoxes()
+comment5.params=b
+comment5.target=void\ clearBox(int)
+numComments=6

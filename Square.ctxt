@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Square()
+comment1.params=
+comment1.target=java.awt.Color\ getColour()
+comment2.params=
+comment2.target=boolean\ status()
+comment3.params=c
+comment3.target=void\ set(java.awt.Color)
+comment4.params=
+comment4.target=void\ unset()
+numComments=5
